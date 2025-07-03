@@ -19,6 +19,7 @@ COPY . .
 RUN go build -o product-catalog .
 
 ####################################
+#Multi-stage
 
 FROM alpine AS release
 
